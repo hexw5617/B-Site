@@ -1,0 +1,139 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+#header {
+  width: 100%;
+  background-color: #edf4ed; }
+  #header .header {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 22px 0 20px; }
+    #header .header img {
+      width: 142px; }
+
+.wrap {
+  width: 1002px;
+  margin: 124px auto 0;
+  position: relative; }
+  .wrap .logleft {
+    display: inline-block;
+    height: 584px;
+    width: 494px;
+    position: relative;
+    left: 50%;
+    margin-left: -432px;
+    vertical-align: top;
+    background: url(../imgs/下载.png) 0 0 no-repeat;
+    background-size: 100%;
+    overflow: visible; }
+    .wrap .logleft .box {
+      height: 422px;
+      width: 195px;
+      margin: 48px 0 0 173px;
+      background-size: 100%; }
+      .wrap .logleft .box .boximg {
+        height: 422px;
+        width: 195px;
+        border-radius: 18px;
+        position: relative; }
+        .wrap .logleft .box .boximg img {
+          width: 100%;
+          opacity: 0;
+          transition: all 1s;
+          position: absolute;
+          top: 0;
+          left: 0; }
+        .wrap .logleft .box .boximg .on {
+          opacity: 1; }
+  .wrap .logright {
+    display: inline-block;
+    border: 1px solid #d8d8d8;
+    width: 340px;
+    position: relative;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -46px;
+    vertical-align: top; }
+    .wrap .logright .logcon {
+      min-height: 450px;
+      width: 340px;
+      padding: 50px 30px 100px;
+      overflow: hidden;
+      position: relative;
+      background: #fff;
+      box-sizing: border-box; }
+      .wrap .logright .logcon .tab {
+        margin-bottom: 35px; }
+        .wrap .logright .logcon .tab ul {
+          border-bottom: 1px solid #ececec; }
+          .wrap .logright .logcon .tab ul li {
+            display: block;
+            text-align: center;
+            line-height: 2; }
+            .wrap .logright .logcon .tab ul li a {
+              color: #333;
+              font-weight: 600;
+              font-size: 24px; }
+      .wrap .logright .logcon .tab-con p {
+        color: #9b9b9b;
+        font-size: 12px;
+        margin-bottom: 20px; }
+        .wrap .logright .logcon .tab-con p a {
+          color: #41ac52; }
+      .wrap .logright .logcon .tab-con input {
+        margin: 10px 0;
+        width: 100%;
+        display: block;
+        line-height: 37px;
+        text-indent: 6px;
+        outline: none;
+        border-radius: 3px;
+        border: 1px solid #ececec; }
+      .wrap .logright .logcon .tab-con button {
+        display: block;
+        width: 100%;
+        padding: 4px 0;
+        border-radius: 3px;
+        line-height: 37px;
+        border: none;
+        background-color: rgba(66, 189, 86, 0.5);
+        font-size: 15px;
+        font-weight: 600;
+        color: #fff;
+        outline: none;
+        cursor: pointer; }
+      .wrap .logright .logcon .tab-con .rd {
+        width: 280px;
+        position: absolute;
+        bottom: 50px; }
+        .wrap .logright .logcon .tab-con .rd h5 {
+          text-align: center;
+          font-size: 11px;
+          color: #9b9b9b;
+          margin-bottom: 10px; }
+          .wrap .logright .logcon .tab-con .rd h5::before {
+            content: "";
+            background-color: #ddd;
+            width: 36%;
+            height: 1px;
+            float: left;
+            margin-top: 6px; }
+          .wrap .logright .logcon .tab-con .rd h5::after {
+            float: right;
+            content: "";
+            background-color: #ddd;
+            width: 36%;
+            height: 1px;
+            margin-top: 6px; }
+        .wrap .logright .logcon .tab-con .rd h6 {
+          text-align: center; }
+          .wrap .logright .logcon .tab-con .rd h6 a {
+            margin: 0 10px; }

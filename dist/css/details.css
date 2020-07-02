@@ -1,0 +1,62 @@
+#header {
+  padding: 27px 0 20px; }
+  #header .header a {
+    line-height: 1;
+    margin-left: 2px; }
+    #header .header a img {
+      width: 109px;
+      height: 24px; }
+  #header .header .header-content {
+    margin-top: 20px;
+    position: relative; }
+    #header .header .header-content span {
+      float: left;
+      font-size: 29px;
+      font-weight: 400;
+      line-height: 1;
+      color: #3e3a39;
+      letter-spacing: 2px; }
+    #header .header .header-content .righaa {
+      float: right; }
+      #header .header .header-content .righaa h4 {
+        display: inline-block; }
+        #header .header .header-content .righaa h4 a {
+          color: #3e3a39;
+          margin-right: 10px;
+          font-size: 14px;
+          font-weight: normal; }
+        #header .header .header-content .righaa h4 span {
+          float: none;
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 400;
+          color: #dd1944;
+          margin-right: 10px; }
+        #header .header .header-content .righaa h4 i {
+          font-style: normal;
+          font-size: 24px;
+          margin: 0 2px; }
+      #header .header .header-content .righaa h5 {
+        display: inline-block;
+        vertical-align: middle;
+        width: 120px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 16px;
+        background: #dd1944;
+        text-align: center;
+        margin-left: 10px;
+        font-weight: 300; }
+        #header .header .header-content .righaa h5 a {
+          color: #fff; }
+
+.pic .pice {
+  position: relative;
+  z-index: 1;
+  background: #f9f6f2 50% no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  height: 650px; }
+
+#main img {
+  width: 100%; }

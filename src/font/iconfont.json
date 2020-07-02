@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4246403",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "10094439",
+      "name": "问好",
+      "font_class": "wenhao",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "12154631",
+      "name": "意见",
+      "font_class": "yijian",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    }
+  ]
+}

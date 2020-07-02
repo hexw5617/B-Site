@@ -1,0 +1,82 @@
+#header{
+    padding: 27px 0 20px;
+    .header{
+        a{
+            line-height: 1;
+            margin-left: 2px;
+            img{
+                width: 109px;
+                height: 24px;
+            }
+        }
+        .header-content{
+            margin-top: 20px;
+            position: relative;
+            span{
+                float: left;
+                font-size: 29px;
+                font-weight: 400;
+                line-height: 1;
+                color: #3e3a39;
+                letter-spacing: 2px;
+            }
+            .righaa{
+                float: right;
+                h4{
+                    display: inline-block;
+                    // vertical-align: middle;
+                    a{
+                        color: #3e3a39;
+                        margin-right: 10px;
+                        font-size: 14px;
+                        font-weight: normal;
+                    }
+                    span{
+                        float: none;
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #dd1944;
+                        margin-right: 10px;
+                    }
+                    i{
+                        font-style: normal;
+                        font-size: 24px;
+                        margin: 0 2px;
+                    }
+                }
+                h5{
+                    display: inline-block;
+                    vertical-align: middle;
+                    width: 120px;
+                    height: 36px;
+                    line-height: 36px;
+                    font-size: 16px;
+                    background: #dd1944;
+                    text-align: center;
+                    margin-left: 10px;
+                    font-weight: 300;
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pic{
+    .pice{
+        position: relative;
+        z-index: 1;
+        background: #f9f6f2 50% no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        height: 650px;
+    }
+}
+#main{
+    img{
+        width: 100%;
+    }
+}
