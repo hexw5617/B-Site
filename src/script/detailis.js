@@ -44,3 +44,10 @@ ajax({
     },
     
 })
+var log= document.querySelector('.toplog');
+var loas= localStorage.getItem("obj");
+loas = JSON.parse(loas);
+// console.log(loas);
+if(loas){
+    log.firstElementChild.style.opacity="0";
+}
